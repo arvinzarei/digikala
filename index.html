@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="norobots" content="noindex,nofollow">
+    <link rel="stylesheet" href="Css/bootstrap-4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="shortcut icon" href="images/icon/16px.ico" />
+    <title>دیجی کالا</title>
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="right-item">
+             <a href class="logo"></a>
+            <i class="far fa-search"></i>
+            <input type="text" class="search-box" placeholder="جستجو در دیجی کالا...">
+        </div>
+        <div class="left-item">
+                <a href="#">
+                    <i class="far fa-user-alt"></i>
+                    ورود به حساب کاربری
+                </a>
+                <a href="#">
+                    <i class="far fa-shopping-cart"></i>
+                </a>
+         </div>
+    </div>
+
+<!--------------------------------------------------------->
+<nav class="navbar navbar-expand-lg navbar-dark bg-light" dir="rtl">
+    <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main_nav">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown" >
+
+                <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> <i class="fas fa-bars"></i> دسته بندی کالاها  </a>
+
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"> کالای دیجیتال </a></li>
+                    <li><a class="dropdown-item" href="#"> مد و پوشاک </a></li>
+                </ul>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="#"><i class="fas fa-layer-group"></i> دیجی کلاب  </a> </li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-shopping-basket"></i> سوپرمارکت </a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-percentage"></i> تخفیف ها و پیشنهادها </a></li>
+        </ul>
+    </div> <!-- navbar-collapse.// -->
+    <div class="location">
+        <a href="#">
+        <span>لطفا شهر و استان خود را انتخاب کنید </span>
+        <i class="far fa-map-marker-alt"></i></a>
+    </div>
+    </div>
+</nav>
+</header>
+<main>
+<!--------------------------Top Banner----------------------------->
+<!--    <div class="container">-->
+<!--    <a href="#" class="top-banner">-->
+<!--        <img src="images/top%20banner.jpg" alt="top-banner">-->
+<!--    </a>-->
+<!--    </div>-->
+    <article class="container">
+        <div class="flex">
+        <section class="slider">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="#"><img src="images/topSlider/10.jpg" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/topSlider/11.jpg" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/topSlider/12.jpg" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/topSlider/13.jpg" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/topSlider/14.jpg" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/topSlider/15.jpg" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="images/topSlider/16.jpg" alt=""></a></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <aside class="left-side">
+                <a href="#"><img src="images/topSlider/leftSection/1.jpg" alt="topSlider-LeftSection"></a>
+                <a href="#"><img src="images/topSlider/leftSection/3.gif" alt="topSlider-LeftSection"></a>
+        </aside>
+        </div>
+    </article>
+
+    <div class="container">
+        <div class="sponsored-box">
+            <img src="images/sponsored-box/1.jpg" alt="sponsored-box-image-1">
+            <img src="images/sponsored-box/2.jpg" alt="sponsored-box-image-2">
+            <img src="images/sponsored-box/3.jpg" alt="sponsored-box-image-3">
+            <img src="images/sponsored-box/4.jpg" alt="sponsored-box-image-4">
+        </div>
+    </div>
+
+</main>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/Scrips.js"></script>
+<script src="Css/bootstrap-4.5.3/dist/js/bootstrap.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+<footer>
+</footer>
+<!-----------------------------Top Slider-------------------------->
+<!--<div class="topSlider-leftItem">-->
+<!--<div class="top-image">-->
+<!--    <img src="images/topSlider/leftSection/1.jpg" alt="topSlider-LeftSection">-->
+<!--</div>-->
+<!--    <div class="top-image">-->
+<!--        <img src="images/topSlider/leftSection/3.gif" alt="topSlider-LeftSection">-->
+<!--    </div>-->
+<!--</div>-->
+<!--------------------------Carousel Box--------------------------->
+<!--<div class="clearfix">-->
+<!--    <div class="ButtonNext">-->
+<!--        <i class="fas fa-angle-left"></i>-->
+<!--    </div>-->
+<!--<div class="carousel-box">-->
+<!--    <div class="box">-->
+<!--        <img src="images/carouselSection/c2.jpg" alt="">-->
+<!--        <div class="box-title">-->
+<!--            kuge طبر سفری زدهانتر مدل-->
+<!--        </div>-->
+<!--        <div class="box-title-digipay">-->
+<!--            طبر سفری زدهانتر مدل-->
+<!--            <img src="images/icon/tick.ico" alt="tick-icon">-->
+<!--        </div>-->
+<!--        <div class="old-price">-->
+<!--            <div class="off-val">-->
+<!--                <span>54%</span>-->
+<!--            </div>-->
+<!--            <del>280000</del>-->
+<!--        </div>-->
+<!--        <div class="new-price">-->
+<!--            <span class="currency">تومان</span>-->
+<!--            240,000-->
+<!--        </div>-->
+<!--        <div class="clock">-->
+<!--            <i class="fa fa-clock"></i>-->
+<!--            <p id="demo"></p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="box">-->
+<!--        <img src="images/carouselSection/c1.jpg" alt="">-->
+<!--        <div class="box-title">-->
+<!--            kuge طبر سفری زدهانتر مدل-->
+<!--        </div>-->
+<!--        <div class="box-title-digipay">-->
+<!--            طبر سفری زدهانتر مدل-->
+<!--            <img src="images/icon/tick.ico" alt="tick-icon">-->
+<!--        </div>-->
+<!--        <div class="old-price">-->
+<!--            <div class="off-val">-->
+<!--                <span>54%</span>-->
+<!--            </div>-->
+<!--            <del>280000</del>-->
+<!--        </div>-->
+<!--        <div class="new-price">-->
+<!--            <span class="currency">تومان</span>-->
+<!--            240,000-->
+<!--        </div>-->
+<!--        <div class="clock">-->
+<!--            <i class="fa fa-clock"></i>-->
+<!--            <p id="demo-1"></p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="box">-->
+<!--        <img src="images/carouselSection/c2.jpg" alt="">-->
+<!--        <div class="box-title">-->
+<!--            kuge طبر سفری زدهانتر مدل-->
+<!--        </div>-->
+<!--        <div class="box-title-digipay">-->
+<!--            طبر سفری زدهانتر مدل-->
+<!--            <img src="images/icon/tick.ico" alt="tick-icon">-->
+<!--        </div>-->
+<!--        <div class="old-price">-->
+<!--            <div class="off-val">-->
+<!--                <span>54%</span>-->
+<!--            </div>-->
+<!--            <del>280000</del>-->
+<!--        </div>-->
+<!--        <div class="new-price">-->
+<!--            <span class="currency">  تومان</span>-->
+<!--            240,000-->
+<!--        </div>-->
+<!--        <div class="clock">-->
+<!--            <i class="fa fa-clock"></i>-->
+<!--            <p id="demo-2"></p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="box">-->
+<!--        <img src="images/carouselSection/c1.jpg" alt="">-->
+<!--        <div class="box-title">-->
+<!--            kuge طبر سفری زدهانتر مدل-->
+<!--        </div>-->
+<!--        <div class="box-title-digipay">-->
+<!--            طبر سفری زدهانتر مدل-->
+<!--            <img src="images/icon/tick.ico" alt="tick-icon">-->
+<!--        </div>-->
+<!--        <div class="old-price">-->
+<!--            <div class="off-val">-->
+<!--                <span>54%</span>-->
+<!--            </div>-->
+<!--            <del>280000</del>-->
+<!--        </div>-->
+<!--        <div class="new-price">-->
+<!--            <span class="currency">  تومان</span>-->
+<!--            240,000-->
+<!--        </div>-->
+<!--        <div class="clock">-->
+<!--            <i class="fas fa-clock"></i>-->
+<!--            <p id="demo-3"></p>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="left-box">-->
+<!--        <img src="images/carouselSection/1.png" alt="carousel-img">-->
+<!--        <button>-->
+<!--            <i class="fa fa-arrow-left" aria-hidden="true"></i>-->
+<!--            <span>مشاهده همه </span>-->
+<!--        </button>-->
+<!--    </div>-->
+<!--</div>-->
+<!--</div>-->
+<!----------------------------------------------------------------->
+</body>
+</html>
