@@ -7,7 +7,7 @@
 //--------------------------------------------
 
     // Set the date we're counting down to
-    var countDownDate = new Date("Mar 10, 2021 18:37:25").getTime();
+    var countDownDate = new Date("Sep 10, 2022 23:37:25").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -28,6 +28,9 @@
     document.getElementById("demo-1").innerHTML =hours + ":" + minutes + ":" + seconds + " ";
     document.getElementById("demo-2").innerHTML =hours + ":" + minutes + ":" + seconds + " ";
     document.getElementById("demo-3").innerHTML =hours + ":" + minutes + ":" + seconds + " ";
+    document.getElementById("demo-4").innerHTML =hours + ":" + minutes + ":" + seconds + " ";
+    document.getElementById("demo-5").innerHTML =hours + ":" + minutes + ":" + seconds + " ";
+    document.getElementById("demo-6").innerHTML =hours + ":" + minutes + ":" + seconds + " ";
 
     // If the count down is over, write some text
     if (distance < 0) {
@@ -36,5 +39,8 @@
         document.getElementById("demo-1").innerHTML = "EXPIRED";
         document.getElementById("demo-2").innerHTML = "EXPIRED";
         document.getElementById("demo-3").innerHTML = "EXPIRED";
+        document.getElementById("demo-4").innerHTML = "EXPIRED";
+        document.getElementById("demo-5").innerHTML = "EXPIRED";
+        document.getElementById("demo-6").innerHTML = "EXPIRED";
     }
 }, 1000);
